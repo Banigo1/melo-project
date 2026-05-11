@@ -17,15 +17,15 @@
 
 		try {
 			const prompt = `
-					Generate exactly 3 thoughtful interview questions 
-					for the role: "${jobTitle}".
+				Generate exactly 3 thoughtful interview questions 
+				for the role: "${jobTitle}".
 
-					Requirements:
-					- Questions must be role-specific
-					- Questions should evaluate practical thinking
-					- Keep them professional and concise
-					- Return only a numbered list
-					`;
+				Requirements:
+				- Questions must be role-specific
+				- Questions should evaluate practical thinking
+				- Keep them professional and concise
+				- Return only a numbered list
+				`;
 
 			const response = await fetch(
 				'https://openrouter.ai/api/v1/chat/completions',
