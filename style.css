@@ -1,0 +1,30 @@
+.send-icons {
+	width: 24px;
+	height: 24px;
+	color: white;
+}
+.container {
+    width: 100%;
+    padding: 50px 15px 0px 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#response {
+    margin-top: 20px;
+    padding: 10px;
+    min-height: 50px;
+}
+#response h3 {
+    color: #333;
+    font-size: 1.2em;
+}
+#response strong {
+    color: #d9534f;
+}
+#response ul {
+    padding-left: 20px;
+}
+#response li {
+    margin-bottom: 10px;
+}
+

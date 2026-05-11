@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Interview ChatBot</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" />
+		<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<h2>Melo</h2>
+			<P>Hi, I'm Melo. I can generate role-specific interview questions.</P>
+			<div class="form-group">
+				<input
+					type="text"
+					class="form-control"
+					id="userInput"
+					placeholder="Enter a job title (e.g. Customer Success Manager)" />
+			</div>
+			<button class="btn btn-success" id="sendBtn">Generate 
+				<svg class="send-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+				<path
+					d="M10 14L21 3M21 3L14.5 21L10 14L3 10.5L21 3Z"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				/>
+				</svg>
+			</button>
+			<div id="response"></div>
+		</div>
+		<script src="script.js" defer></script>
+	</body>
+</html>
