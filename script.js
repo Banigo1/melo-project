@@ -3,12 +3,25 @@
 		const jobTitle = document
 			.getElementById('userInput')
 			.value.trim();
+		
 
 		const responseDiv = document.getElementById('response');
 
+		  // Check 1: not empty
 		if (!jobTitle) {
-			responseDiv.innerHTML =
-				'<p>Please enter a job title.</p>';
+			responseDiv.innerHTML = '<p>Please enter a job title.</p>';
+			return;
+		}
+	
+		// Check 2: minimum length (3 characters)
+		if (jobTitle.length < 3) {
+			responseDiv.innerHTML = '<p>Please enter a valid job title (at least 3 characters).</p>';
+			return;
+		}
+	
+		// Check 3: must contain at least one letter (rejects numbers/symbols only)
+		if (!/[A-Za-z]/.test(jobTitle)) {
+			responseDiv.innerHTML = '<p>Please enter a valid job title (e.g., "Software Engineer").</p>';
 			return;
 		}
 

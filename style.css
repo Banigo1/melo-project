@@ -5,9 +5,14 @@
 }
 .container {
     width: 100%;
-    padding: 50px 15px 0px 15px;
-    margin-right: auto;
-    margin-left: auto;
+    padding: 50px 30px 0px 15px;
+    /* margin: 0px 15px 0px 0px */
+}
+.form-control {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
 }
 #response {
     margin-top: 20px;
@@ -27,4 +32,3 @@
 #response li {
     margin-bottom: 10px;
 }
-

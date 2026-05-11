@@ -71,7 +71,7 @@ https://xyz.com
 ## **Future Improvements**
 
 * Hide API key in production
-* Add difficulty levels (Junior / Mid / Senior roles)
+* Add difficulty levels ( e.g Junior / Mid / Senior roles)
 * Add question categories (Behavioral, Technical, Situational)
 * Save history of generated questions
 * Authentication system
